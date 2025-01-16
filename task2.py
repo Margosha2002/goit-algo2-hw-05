@@ -21,7 +21,7 @@ def load_log_file(file_path):
 
 
 def count_unique_exact(ip_addresses):
-    """Точний підрахунок унікальних IP-адрес за допомогою set."""
+    # Точний підрахунок унікальних IP-адрес за допомогою set
     return len(set(ip_addresses))
 
 
